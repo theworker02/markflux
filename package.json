@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/markflux",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mark identifiers and flux tokens for idempotent workflows.",
+  "bin": {
+    "markflux": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/markflux.git"
+  },
+  "homepage": "https://theworker02.github.io/markflux/",
+  "keywords": [
+    "mark",
+    "flux",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
